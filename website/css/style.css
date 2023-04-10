@@ -1,0 +1,206 @@
+body {
+    margin: auto;
+    background: url("../images/pharmacy.jpg");
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.banner {
+    margin-top:-112px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    background: url("../images/banner.jpg");
+}
+
+.bannername {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 135px;
+    text-shadow: 2px 2px blue;
+    padding-top: 180px;
+}
+
+nav {
+    display: block;
+    background-color: blue;
+}
+
+nav ul {
+    position: relative;
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+nav li {
+    font-weight: bolder;
+    color: black;
+    display: inline-block;
+    background-color: lightgray;
+    padding: 5px;
+    margin: 8px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+nav li:hover {
+    background-color: lightgreen;
+    transform: scale(1.2);
+    transition: ease-in-out 1s;
+}
+
+main {
+    background-color: lightsteelblue;
+    max-width: 1080px;
+    margin: 0px auto 0px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: calc(100vh - 120px);
+    opacity: .99;
+    text-align: center;
+}
+
+.quemsomos {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.quemsomos p {
+    font-size: 28px;
+    font-family: "Times New Roman", Times, serif;
+    max-width: 800px;
+    margin: 5px auto 5px auto;
+    text-indent: 25px;
+    text-align: justify;
+}
+
+.quemsomos h3 {
+    font-size: 30px;
+    text-align: left;
+    font-weight: bolder;
+    max-width: 800px;
+    margin: 35px auto 5px auto;
+}
+
+.produtos {
+    padding: 5px;
+    margin: 150px auto 20px auto;
+    display: inline-block;
+}
+
+.produtos a {
+    position: relative;
+}
+
+.produtos img {
+    margin: 25px 25px 15px 25px;
+    border-radius: 15px;
+    position: relative;
+    opacity: 1;
+}
+
+.produtos img:hover {
+    transform: scale(1.1);
+    transition: ease-in-out .3s;
+    box-shadow: 2px 1px blue;
+}
+
+.duvidas {
+    padding: 25px;
+    margin: 150px 10px 150px 10px;
+}
+
+
+.divtabela {
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 0px 20px 0px 20px;
+}
+
+.tabela {
+    margin: auto;
+}
+
+.tabelaheader {
+    font-size: 35px;
+    font-weight: bolder;
+    background-color: blue;
+    color: white;
+}
+
+.tabela td {
+    font-size: 25px;
+}
+
+.sectionframeclass {
+    margin: 0px auto 50px auto;
+}
+
+.sectionframeclass h4 {
+    font-size: 20px;
+}
+
+.sectionframeclass iframe {
+    border-radius: 10px;
+    box-shadow: 5px 5px gray;
+}
+
+#cMensagem {
+    max-width: 300px;
+    height: 200px;
+    vertical-align: top;
+}
+
+.contatenos {
+    max-width: 800px;
+    margin: 250px auto 10px auto;
+    border: 1px solid green;
+    border-radius: 15px;
+    padding: 1px 15px 1px 15px;
+    background-color: lightgray;
+}
+
+fieldset {
+    margin: 30px 15px 20px 15px;
+    background: lightsteelblue;
+}
+
+.fieldset {
+    text-align: left;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+legend {
+    color: white;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: blue;
+    text-align: left;
+}
+
+footer {
+    background-color: orange;
+    margin-top: 0px;
+    padding: 1px 1px;
+    display: block;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+}
+
+footer img:hover {
+    transform: scale(1.5);
+    transition: ease-in-out .8s;
+}
