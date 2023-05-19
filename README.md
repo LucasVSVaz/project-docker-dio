@@ -1,4 +1,5 @@
 # Projeto Docker com servidor Apache (httpd)
-### Este projeto faz parte de um curso de Docker da plataforma Digital Innovation One.
-### A proposta do exercício é: criar um arquivo YML que, ao ser compilado, suba um contêiner com o servidor Apache e uma página simples HTML.
-### Usei como página um projeto chamado "Drogaria ADS" que eu fiz no primeiro semestre da faculdade, composto de HTML, CSS e imagens.
+### Exercício proposto ao final do Módulo sobre Docker -  Bootcamp TQI Kotlin - Backend Developer.
+### 1- Criar um arquivo YML com as definições de um servidor Apache (httpd)
+### 2- Especificar no arquivo YML o local onde os arquivos da aplicação estarão.
+### 3- Subir o arquivo YML e a aplicação para um repositório no GitHub. 
